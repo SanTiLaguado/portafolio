@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Manager</title>
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="/css/pm.css">
+</head>
+
+<body>
+    <header>
+        <h1>Gestor Web de Listas de Precios</h1>
+    </header>
+    <h2>Tecnologías Utilizadas</h2>
+
+    <section class="tech-section">
+        <div class="content">
+            
+            <p>Este gestor de listas de precios es un proyecto FullStack desarrollado con las siguientes tecnologías:
+            </p>
+            <ul>
+                <li><strong>MySQL:</strong> Base de datos relacional.</li>
+                <li><strong>React:</strong> Biblioteca para construir interfaces de usuario.</li>
+                <li><strong>Node.js:</strong> Entorno de ejecución para JavaScript del lado del servidor.</li>
+                <li><strong>Express:</strong> Framework para construir aplicaciones web en Node.js.</li>
+                <li><strong>JavaScript:</strong> Lenguaje de programación principal.</li>
+                <li><strong>HTML y CSS:</strong> Para el diseño y estilo de la interfaz.</li>
+            </ul>
+        </div>
+        <div class="tech">
+
+            <img src="/images/pricemanager.png" alt="">
+            <div class="icons">
+                <i class="devicon-mysql-plain-wordmark" style="font-size:80px"></i>
+                <i class="devicon-react-original-wordmark" style="font-size:80px"></i>
+                <i class="devicon-nodejs-plain-wordmark" style="font-size:80px"></i>
+                <i class="devicon-express-original-wordmark colored" style="font-size:80px"></i>
+                <i class="devicon-javascript-plain" style="font-size:80px"></i>
+                <i class="devicon-html5-plain-wordmark" style="font-size:80px"></i>
+                <i class="devicon-css3-plain-wordmark" style="font-size:80px"></i>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>Características</h2>
+        <p>En este proyecto el usuario tiene la capacidad de:</p>
+        <ul>
+            <li><strong>Crear Proveedores:</strong> Navega a la sección de proveedores y utiliza el formulario para
+                agregar nuevos proveedores y asignarles una fórmula matemática.</li>
+            <li><strong>Subir Productos:</strong> Usa la opción de carga de listas CSV para subir listas de productos.
+                (Archivo delimitado por comas)</li>
+            <li><strong>Filtrar y Buscar:</strong> Utiliza las opciones de filtrado y la barra de búsqueda en tiempo
+                real para encontrar productos específicos en la lista.</li>
+            <li><strong>Eliminar Productos:</strong> Selecciona productos de la lista y usa la opción de eliminación.
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Validaciones y Casos de Uso</h2>
+        <p>Este sistema gestor tiene la capacidad de detectar y validar los siguientes casos de uso al momento de subir
+            productos:</p>
+        <ul>
+            <li>Detectar cuando un producto ya está creado en la base de datos y descartarlo.</li>
+            <li>Detectar cuando el nuevo precio de un producto es mayor que el actual y actualizarlo.</li>
+            <li>Detectar cuando el nuevo precio de un producto está por debajo del actual y actualizarlo.</li>
+            <li>Detectar cuando un producto no necesita ser actualizado y descartarlo.</li>
+            <li>Detectar un nuevo producto y crearlo en la base de datos.</li>
+        </ul>
+    </section>
+
+    <footer>
+        Copyright &copy All Rights Reserved 2024 - Santiago Laguado Osorio
+    </footer>
+</body>
+
+</html>
