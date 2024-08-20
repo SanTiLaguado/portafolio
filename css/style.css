@@ -49,6 +49,16 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.navbar-brand img {
+  width: 50px; /* Tamaño inicial de la imagen */
+  transition: transform 0.3s ease; /* Suaviza el efecto de transformación */
+}
+
+.navbar-brand img:hover {
+  transform: scale(1.1); /* Escala la imagen al 110% de su tamaño original */
+}
+
+
 article,
 aside,
 figcaption,
@@ -12034,9 +12044,8 @@ h5,
 
 .ftco-navbar-light.scrolled .navbar-brand {
   color: #fff;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   font-size: 24px;
+  margin: 0;
 }
 
 .navbar-brand {
